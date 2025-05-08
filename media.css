@@ -1,0 +1,469 @@
+@media (max-width: 599px) {
+
+    #Navbar {
+        padding: 20px 10px;
+    }
+
+    #Navbar h1 {
+        font-size: 3rem;
+        color: #f9de47;
+    }
+
+    
+        #Navbar ul {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        align-items: start;
+        transition: .3s left;
+        z-index: 1;
+    }
+
+    #Navbar ul h5 {
+        font-size: 40px;
+        display: initial;
+    }
+
+    #Navbar ul.view {
+        left: 0;
+    }
+
+    #Navbar ul li {
+        padding: 20px;
+    }
+
+    .menu {
+        display: initial;
+        z-index: 2;
+    }
+
+
+    #Hero {
+        padding: 20px 20px;
+    }
+    
+    #Hero h2 {
+        font-size: 3rem;
+        width: 70%;
+        color: #fff;
+    }
+    
+    #Hero a {
+        font-size: 28px;
+        background: #c1272d;
+    }
+    #About {
+        padding: 20px 20px;
+    }
+    
+    .about-container {
+        flex-direction: column;
+    }
+    
+    .about {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #Services {
+        padding: 20px 20px;
+    }
+    
+    .dental-container {
+        flex-direction: column;
+    }
+    
+    .dental {
+        width: 100%;
+    }
+
+    #Footer {
+        padding: 20px 20px;
+    }
+
+    #Footer h2 {
+        text-align: start;
+    }
+
+    .footer  {
+        width: 100%;
+        height: 45vh;
+        padding: 10px;
+    }
+
+    
+    .container-footer {
+        flex-direction: column;
+        gap: 0em;
+        align-items: center;
+        text-align: center;
+    }
+
+         /* closed services section */
+
+        #Contact {
+            padding: 20px 10px;
+        }
+    
+        #Contact-info {
+            padding: 20px 10px;
+        }
+        
+        #Contact h2 {
+            text-align: center;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 1em;
+        }
+        
+        .contact-container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact {
+            background: #1a1a1a;
+            flex-direction: column;
+            width: 100%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5em;
+        }
+    
+        .contact_info {
+            width: 100%;
+        }
+        
+        .contact span {
+            display: none;
+        }
+    
+        form input, textarea {
+            width: 100%;
+        }
+
+    footer {
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+
+    #Navbar {
+        padding: 20px 40px;
+    }
+
+    #Navbar ul {
+        position: fixed;
+        flex-direction: column;
+        top: 16%;
+        left: -100%;
+        width: 50%;
+        height: 80vh;
+        background: rgba(0, 0, 0, 0.884);
+        align-items: start;
+        transition: .3s left;
+        z-index: 10000;
+    }
+
+    #Navbar ul.view {
+        left: 0;
+    }
+
+    #Navbar ul li {
+        padding: 20px;
+    }
+
+    #Navbar ul h5 {
+        font-size: 40px;
+        display: initial;
+    }
+
+
+    .menu {
+        display: initial;
+    }
+
+
+    #Hero1 h2 {
+        margin-bottom: 1em;
+        width: 70%;
+    }
+
+    #Hero h2 {
+        font-size: 45px;
+        width: 100%;
+        margin-bottom: .8em;
+    }
+
+    .hero {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+    
+    #Hero p {
+        font-size: 25px;
+        width: 90%;
+        color: #f1f1f1;
+    }
+    
+    #Hero a {
+        font-size: 25px;
+        padding: 10px;
+    }
+    
+    #About {
+        padding: 20px 20px;
+    }
+    
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        width: 100%;
+    }
+    
+    .about-container img {
+        width: 100%;
+        height: 55vh;
+    }
+    
+    .oracare-info {
+        width: 100%;
+        height: 55vh;
+    }
+    
+    .oracare-info span {
+        font-style: italic;
+        color: #1ea89d;
+        font-size: 1.5rem;
+    }
+    
+    .oracare-info h3 {
+        font-style: italic;
+        color: #494949c4;
+        font-size: 1.5rem;
+        margin-bottom: .7em;
+    }
+    
+    .oracare-info p {
+        font-style: italic;
+        color: #494949c4;
+        font-size: 1.41rem;
+        margin-bottom: 1em;
+    }
+
+    #Services {
+        padding: 20px 20px;
+    }
+    
+    .services {
+        width: 80%;
+    }
+
+    .services svg  {
+        width: 20%;
+        padding: 20px;
+    }
+
+    .services img {
+        object-fit: cover;
+    }
+
+    .dental-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+    }
+    
+    .dental {
+        width: 42%;
+        height: 5;
+        padding: 5px;
+    }
+    
+    .dental svg  {
+        object-fit: cover;
+        width: 40%;
+        background: #f9de47;
+        padding: 20px;
+        clip-path: polygon(50% 0, 0 25%, 0 75%, 50% 100%, 100% 75%, 100% 25%);
+        transition: .5s;
+        cursor: pointer;
+        stroke: #fff;
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+    }
+    
+    .dental svg:hover{
+        background: #fff;
+        fill: #f9de47;
+    }
+    
+    .dental img {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .dental-text {
+        padding: 5px;
+    }
+    
+    .dental h4 {
+        font-size: 2rem;
+    }
+    
+    .dental p {
+        font-size: 1.2rem;
+    }
+
+    #Footer {
+        padding: 20px 20px;
+    }
+
+    #Footer h2 {
+        text-align: start;
+    }
+
+    .footer  {
+        width: 100%;
+        height: 45vh;
+        padding: 10px;
+    }
+    
+    .container-footer {
+        gap: 0em;
+    }
+
+        /* closed services section */
+
+        #Contact {
+            padding: 20px 10px;
+        }
+    
+        #Contact-info {
+            padding: 20px 40px;
+        }
+        
+        #Contact h2 {
+            text-align: center;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 1em;
+        }
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact {
+            background: #1a1a1a;
+            display: flex;
+            width: 95%;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5em;
+        }
+    
+        .contact_info {
+            width: 100%;
+        }
+        
+        .contact span {
+            width: 100%;
+            height: 60vh;
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            transition: all .3s;
+        }
+
+        #Footer {
+            padding: 20px 10px;
+        }
+        
+        #Footer h2 {
+            font-size: 40px;
+            text-align: start;
+            color: #dbdbdb;
+            margin-bottom: 1em;
+        }
+        
+        .container-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        }
+        
+        .footer svg {
+            fill: #f9de47;
+        }
+        
+        .footer  {
+            width: 100%;
+            height: 45vh;
+            padding: 5px;
+            margin-left: 6%;
+        }
+        
+        .footer a {
+            text-decoration: none;
+            color: #dbdbdb;
+            transition: .5s;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+            color: #1ea89d;
+        }
+        
+        .footer h5 {
+            color: #fff;
+            font-size: 30px;
+            text-align: start;
+            margin-bottom: .5em;
+        }
+        
+        .footer p {
+            color: #aaa;
+            text-align: start;
+            font-size: 1.2rem;
+        }
+        
+        footer p {
+            font-size: 1.5rem;
+        }
+        
+        footer span {
+            color: #12d10c;
+            font-weight: 700;
+        }
+
+    
+        form input, textarea {
+            width: 100%;
+        }
+
+    footer {
+        padding: 20px 40px;
+    }
+}
